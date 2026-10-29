@@ -1,0 +1,31 @@
+{
+  "name": "krishiseva-backend",
+  "version": "2.0.0",
+  "description": "KrishiSeva API — Node.js + Express + MongoDB",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.0",
+    "morgan": "^1.10.1",
+    "razorpay": "^2.9.2",
+    "stripe": "^16.12.0",
+    "uuid": "^9.0.0"
+  },
+  "optionalDependencies": {
+    "@anthropic-ai/sdk": "^0.20.0",
+    "nodemailer": "^6.9.13",
+    "openai": "^4.40.0",
+    "twilio": "^5.0.0"
+  }
+}
